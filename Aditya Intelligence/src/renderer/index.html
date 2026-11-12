@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; style-src 'self'; script-src 'self'; img-src 'self' data:" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Aditya Intelligence</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="app-shell">
+    <aside class="sidebar">
+      <div class="brand"><span class="brand-mark">A</span><span>Aditya<br><strong>Intelligence</strong></span></div>
+      <button id="new-chat" class="new-chat">＋ New chat</button>
+      <div class="side-note"><span id="status-dot"></span><span id="status-text">Offline · Starting</span></div>
+      <p class="private">Private by design<br><small>Runs only on this computer</small></p>
+    </aside>
+    <section class="chat-area">
+      <header><div><h1 id="chat-title">New conversation</h1><p>Local AI assistant</p></div><div class="header-actions"><button id="regenerate" title="Regenerate last response">↻ Regenerate</button><button id="clear-chat" title="Clear conversation">Clear</button></div></header>
+      <div id="messages" class="messages" aria-live="polite">
+        <section class="welcome"><div class="welcome-mark">A</div><h2>Aditya Intelligence</h2><p>Your private, offline assistant. Ask anything to begin.</p><div class="suggestions"><button data-prompt="Explain how a CPU works in simple terms.">Explain a CPU</button><button data-prompt="Help me make a simple daily plan.">Plan my day</button><button data-prompt="Write a short Python learning plan.">Learn Python</button></div></section>
+      </div>
+      <footer>
+        <div class="composer"><textarea id="prompt" rows="1" placeholder="Message Aditya Intelligence…" aria-label="Chat message"></textarea><button id="send" title="Send message">↑</button><button id="stop" class="hidden" title="Stop generation">■ Stop</button></div>
+        <p>Local model · Messages are stored only on this PC</p>
+      </footer>
+    </section>
+  </main>
+  <script src="renderer.js"></script>
+</body>
+</html>

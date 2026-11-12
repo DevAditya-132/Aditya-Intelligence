@@ -1,0 +1,7 @@
+{
+  "name": "offline-chat",
+  "version": "1.0.0",
+  "description": "Private local Windows chat application using llama.cpp",
+  "main": "src/main.js",
+  "private": true
+}

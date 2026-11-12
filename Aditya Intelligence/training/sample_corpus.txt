@@ -1,0 +1,5 @@
+Aditya Intelligence is a small local experiment.
+Learning begins with careful examples and measured evaluation.
+A model should say when it is uncertain.
+Private tools should keep private data on the computer.
+Small experiments teach useful ideas.
