@@ -71,6 +71,7 @@ You can also use Setup.ps1 as an alternative to install model yet i don't recomm
 I personally recommend using a shortcut to improve your experience.
 
 ## Privacy and networking
+## Aditya Intelligence can make mistakes.
 
 At runtime, the only service is `llama-server.exe` listening on
 `127.0.0.1:18080`. Electron does not load remote pages; its CSP permits only
