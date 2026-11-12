@@ -21,9 +21,7 @@ and [llama.cpp's MIT license](https://github.com/ggml-org/llama.cpp/blob/master/
 
 ## Install and run
 
-1. Right-click `setup.ps1` and choose **Run with PowerShell**, or run:
-   `powershell -ExecutionPolicy Bypass -File .\\setup.ps1`
-   This is the only step that needs internet. It downloads roughly 1.4 GB.
+1. Run Setup.cmd to download model. It is roughly 1.1gb (completely offline AI once installed).
 2. Run `run.cmd`.
 3. Wait for the green **Offline · Ready** badge, then chat with Aditya Intelligence.
 
