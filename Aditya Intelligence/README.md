@@ -25,7 +25,7 @@ and [llama.cpp's MIT license](https://github.com/ggml-org/llama.cpp/blob/master/
 2. Run `run.cmd`.
 3. Wait for the green **Offline · Ready** badge, then chat with Aditya Intelligence.
 
-`setup.ps1` is safe to run again: it keeps completed downloads and only fetches
+setup.cmd is safe to run again: it keeps completed downloads and only fetches
 missing pieces. `run.cmd` starts the local engine automatically. No account or
 internet connection is required after setup.
 
@@ -66,6 +66,8 @@ and GGUF/Q4 export. See [training/README.md](training/README.md).
 There is also a deliberately small, from-scratch educational character model in
 `training/educational_tiny_lm.py`. It proves the mechanics of training but is
 not used by the chat app and will not become a useful general assistant.
+
+You can also use Setup.ps1 as an alternative to install model yet i don't recommend using it. 
 
 ## Privacy and networking
 
