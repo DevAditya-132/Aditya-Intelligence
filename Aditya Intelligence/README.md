@@ -68,6 +68,7 @@ There is also a deliberately small, from-scratch educational character model in
 not used by the chat app and will not become a useful general assistant.
 
 You can also use Setup.ps1 as an alternative to install model yet i don't recommend using it. 
+I personally recommend using a shortcut to improve your experience.
 
 ## Privacy and networking
 
